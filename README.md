@@ -90,298 +90,34 @@ nano
 rmdir
 ```
 
-- **Audacity**:
+- **Create empty file**:
 
 ```bash
-sudo apt install audacity
+touch
 ```
 
-- **SimpleSreenRecorder**:
+- **Display file content**:
 
 ```bash
-sudo apt install simplescreenrecorder
+cat
 ```
 
-- **vim**:
+- **Show directory structure (install needed)**:
 
 ```bash
-sudo apt install vim
+tree
 ```
 
-- **adb**:
+- **Find files by name**:
 
 ```bash
-sudo apt install adb
+find . -name "*.txt" 
 ```
 
-- **PulseAudio Volume Control (pavucontrol)**:
+- **Show file type info**:
 
 ```bash
-sudo apt install pavucontrol
-```
-
-- **uget**:
-
-```bash
-sudo apt install uget
-```
-
-- **uget-integrator**:
-
-```bash
-sudo apt install uget-integrator
-```
-
-- **aria2**:
-
-```bash
-sudo apt install aria2
-```
-
-- **yt-dlp**:
-
-```bash
-sudo apt install yt-dlp
-```
-
-- **ffmpeg**:
-
-```bash
-sudo apt install ffmpeg
-```
-
-- **cython3**:
-
-```bash
-sudo apt install cython3
-```
-
-- **net-tools (netstat)**:
-
-```bash
-sudo apt install net-tools
-```
-
-- **BleachBit**:
-
-```bash
-sudo apt install bleachbit
-```
-
-- **flatpak**:
-
-```bash
-sudo apt install flatpak
-```
-
-- **Samba**:
-
-```bash
-sudo apt install samba
-```
-
-- **npm**:
-
-```bash
-sudo apt install npm
-```
-
-- **ufw**:
-
-```bash
-sudo apt install ufw
-```
-
-- **curl**:
-
-```bash
-sudo apt install curl
-```
-
-- **HTTPie**:
-
-```bash
-sudo apt install httpie
-```
-
-- **chkrootkit**:
-
-```bash
-sudo apt install chkrootkit
-```
-
-- **rkhunter**:
-
-```bash
-sudo apt install rkhunter
-```
-
-- **chrome-gnome-shell**:
-
-```bash
-sudo apt install chrome-gnome-shell
-```
-
-- **gnome-shell-extension-manager**:
-
-```bash
-sudo apt install gnome-shell-extension-manager
-```
-
-- **gnome-shell-extension-prefs**:
-
-```bash
-sudo apt install gnome-shell-extension-prefs
-```
-
-- **GSConnect**:
-
-```bash
-sudo apt install gsconnect
-```
-
-- **default-jre**:
-
-```bash
-sudo apt install default-jre
-```
-
-- **default-jdk**:
-
-```bash
-sudo apt install default-jdk
-```
-
-- **obs-studio**:
-
-```bash
-sudo apt install obs-studio
-```
-
-- **qbittorrent**:
-
-```bash
-sudo apt install qbittorrent
-```
-
-- **shotcut**:
-
-```bash
-sudo apt install shotcut
-```
-
-- **gifsicle**:
-
-```bash
-sudo apt install gifsicle
-```
-
-- **simple-scan**:
-
-```bash
-sudo apt install simple-scan
-```
-
-- **xsane**:
-
-```bash
-sudo apt install xsane
-```
-
-- **USB mode switch**:
-
-```bash
-sudo apt install usb-modeswitch usb-modeswitch-data
-```
-
-- **nginx**:
-
-```bash
-sudo apt install nginx
-```
-
-- **libnginx-mod-stream**:
-
-```bash
-sudo apt install libnginx-mod-stream
-```
-
-- **android-tools-fastboot**:
-
-```bash
-sudo apt install android-tools-fastboot
-```
-
-- **android-tools-adb**:
-
-```bash
-sudo apt install android-tools-adb
-```
-
-- **android-sdk-platform-tools-common**:
-
-```bash
-sudo apt install android-sdk-platform-tools-common
-```
-
-- **bluez bluez-tools bluez-input blueman**:
-
-```bash
-sudo apt install bluez bluez-tools bluez-input blueman
-```
-
-- **wget**:
-
-```bash
-sudo apt install wget
-```
-
-- **git**:
-
-```bash
-sudo apt install git
-```
-
-- **htop**:
-
-```bash
-sudo apt install htop
-```
-
-- **net-tools**:
-
-```bash
-sudo apt install net-tools
-```
-
-- **ubuntu-restricted-extras**:
-
-```bash
-sudo apt install ubuntu-restricted-extras
-```
-
-- **firmware-linux**:
-
-```bash
-sudo apt install firmware-linux
-```
-
-- **firmware-linux-nonfree**:
-
-```bash
-sudo apt install firmware-linux-nonfree
-```
-
-- **bluez blueman pulseaudio-module-bluetooth**:
-
-```bash
-sudo apt install bluez blueman pulseaudio-module-bluetooth`
-```
-
-- **network-manager-openvpn network-manager-openvpn-gnome**:
-
-```bash
-sudo apt install network-manager-openvpn network-manager-openvpn-gnome
+Show file type info
 ```
 
 - **openssh-server**:
@@ -389,263 +125,132 @@ sudo apt install network-manager-openvpn network-manager-openvpn-gnome
 ```bash
 sudo apt install openssh-server
 ```
-
-- **vlc**:
-
-```bash
-sudo apt install vlc
-```
-
-- **ffmpeg**:
-
-```bash
-sudo apt install ffmpeg
-```
-
-- **gstreamer**:
-
-```bash
-sudo apt install gstreamer1.0-libav gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly
-```
-
-- **mesa-utils**:
-
-```bash
-sudo apt install mesa-utils
-```
-
-- **mesa-vulkan-drivers**:
-
-```bash
-sudo apt install mesa-vulkan-drivers
-```
-
-- **tlp**:
-
-```bash
-sudo apt install tlp
-```
-
-- **powertop**:
-
-```bash
-sudo apt install powertop
-```
-
-- **gufw**:
-
-```bash
-sudo apt install gufw
-```
-
-- **fail2ban**:
-
-```bash
-sudo apt install fail2ban
-```
-
-- **clamav clamtk**:
-
-```bash
-sudo apt install clamav clamtk
-```
-
-- **zip unzip rar unrar p7zip-full**:
-
-```bash
-sudo apt install zip unzip rar unrar p7zip-full
-```
-
-- **cups system-config-printer**:
-
-```bash
-sudo apt install cups system-config-printer
-```
-
-- **simple-scan sane**:
-
-```bash
-sudo apt install simple-scan sane
-```
-
-- **virtualbox virtualbox-ext-pack**:
-
-```bash
-sudo apt install virtualbox virtualbox-ext-pack
-```
-
-- **docker.io docker-compose**:
-
-```bash
-sudo apt install docker.io docker-compose
-```
-
-- **python3 python3-pip python3-venv**:
-
-```bash
-sudo apt install python3 python3-pip python3-venv
-```
-
-- **default-jdk maven gradle**:
-
-```bash
-sudo apt install default-jdk maven gradle
-```
-
-- **CUDA Toolkit**:
-
-```bash
-sudo apt install nvidia-cuda-toolkit
-```
-
-- **mesa-utils mesa-vulkan-drivers**:
-
-```bash
-sudo apt install mesa-utils mesa-vulkan-drivers
-```
-
-- **tlp powertop**:
-
-```bash
-sudo apt install tlp powertop
-sudo systemctl enable tlp
-```
-
-- **gufw fail2ban clamav clamtk**:
-
-```bash
-sudo apt install gufw fail2ban clamav clamtk
-```
-
-- **zip unzip rar unrar p7zip-ful**:
-
-```bash
-sudo apt install zip unzip rar unrar p7zip-full
-```
-
-- **cups system-config-printer simple-scan sane**:
-
-```bash
-sudo apt install cups system-config-printer simple-scan sane
-```
-
-- **virtualbox**:
-
-```bash
-sudo apt install virtualbox virtualbox-ext-pack
-```
-
 - **Python**:
 
 ```bash
 sudo apt install python3 python3-pip python3-venv
 ```
+---
 
-- **Java**:
+# Working with Files
+
+- **View file content**:
 
 ```bash
-sudo apt install default-jdk maven gradle
+cat <file>
+```
+
+- **Scrollable file viewer**:
+
+```bash
+less <file>
+```
+
+- **# First 10 lines**:
+
+```bash
+head <file>
+```
+
+- **Last 10 lines**:
+
+```bash
+tail <file> 
+```
+
+- **Live log viewer**:
+
+```bash
+tail -f <file>
+```
+
+- **Count lines**:
+
+```bash
+wc -l <file> 
+```
+
+- **Split text (example with colon delimiter)**:
+
+```bash
+cut -d':' -f1 <file>
+```
+
+- **Sort lines**:
+
+```bash
+sort <file>
+```
+
+- **Remove duplicates**:
+
+```bash
+uniq <file>
+```
+---
+
+# Permissions & Ownership
+
+- **Make file executable**:
+
+```bash
+chmod +x <file>
+```
+
+- **Read/write/execute for owner, read/execute for others**:
+
+```bash
+chmod 755 <file>
+```
+
+- **Change ownership**:
+
+```bash
+chown user:group <file>
 ```
 
 ---
+# Archiving & Compression
 
-# snap
-
-- **Airflow**:
-
-```bash
-sudo snap install apache-airflow
-```
-
-- **Slack**:
+- **Create tar archive**:
 
 ```bash
-sudo snap install slack --classic
+tar -cvf file.tar dir/  
 ```
 
-- **Discord**:
+- **Extract tar**:
 
 ```bash
-sudo snap install discord
+tar -xvf file.tar
 ```
 
-- **draw.io**:
+- **Create compressed archive**:
 
 ```bash
-sudo snap install drawio
+tar -czvf file.tar.gz dir/
 ```
-
-- **Pycharm Community**:
-
-```bash
-sudo snap install pycharm-community --classic
-```
-
-- **Pycharm Professional**:
-
-```bash
-sudo snap install pycharm-professional --classic
-```
-
-- **Postman**:
-
-```bash
-sudo snap install postman
-```
-
-- **Zoom**:
-
-```bash
-sudo snap install zoom-client
-```
-
-- **VS Code**:
-
-```bash
-sudo snap install code --classic
-```
-
-- **Telegram**:
-
-```bash
-sudo snap install telegram-desktop
-```
-
-- **Zotero**:
-
-```bash
-sudo snap install zotero-snap
-```
-
-- **Btop**:
-
-```bash
-sudo snap install btop
-```
-
 ---
+#  Package Management (Debian/Ubuntu)
 
-# pip
-
-- **AWS CLI**:
-
-```bash
-pip install awscli
-```
-
-- **AWS SAM**:
+- **Update package list**:
 
 ```bash
-pip install aws-sam-cli
+sudo apt update
 ```
 
-- **JupyterLab Desktop**:
+- **Upgrade all packages**:
 
 ```bash
-pip install jupyterlab
+sudo apt upgrade
 ```
 
----
+- **Install a package & Remove a package**:
+
+```bash
+sudo apt install <pkg>
+sudo apt remove <pkg>
+```
+
 
 # Gnome Extension
 
