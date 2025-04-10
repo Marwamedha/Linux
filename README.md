@@ -12,9 +12,10 @@
 ## Table of Contents
 
 - [Main](#main)
-- [Apt](#apt)
-- [Snap](#snap)
-- [Pip](#pip)
+- [Working with Files](#Working with Files)
+- [Permissions & Ownership](#Permissions & Ownership)
+- [Archiving & Compression](#Archiving & Compression)
+-[Package Management (Debian/Ubuntu)](#Package Management (Debian/Ubuntu))
 - [Gnome Extension](#gnome-extension)
 - [Other](#other)
 
@@ -250,7 +251,27 @@ sudo apt upgrade
 sudo apt install <pkg>
 sudo apt remove <pkg>
 ```
+------
+#  Shortcuts & Tricks
 
+- **Repeat last command**:
+
+```bash
+!! 
+```
+
+- **Run last command starting with abc**:
+
+```bash
+!abc 
+```
+
+- **Cancel running command &Log out of terminal**:
+
+```bash
+Ctrl + C
+Ctrl + D
+```
 
 # Gnome Extension
 
@@ -260,17 +281,5 @@ sudo apt remove <pkg>
 
 # Other
 
-- **Chrome**: Download `.deb` package from [official website](https://www.google.com/chrome/)
-- **Any Desk**: Download `.deb` package from [official website](https://anydesk.com/tr/downloads/linux)
-- **Anaconda**: Download from [official website](https://www.anaconda.com/products/distribution#download-section)
-- **Microsoft Azure CLI**: `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
-- **ElasticSearch**: Add
-  ElasticSearch's [official repository](https://www.elastic.co/guide/en/elasticsearch/reference/current/deb.html)
-- **Kibana**: Add Kibana's [official repository](https://www.elastic.co/guide/en/kibana/current/deb.html)
-- **Cloudflare WARP**: Download
-  from [Cloudflare's website](https://developers.cloudflare.com/warp-client/setting-up/linux/)
-- **Cloudflare Zero Trust**: Download
-- **Proof General**: Not available via apt/snap
-- **Cgoban.jar**: Not available via apt/snap
-- **cuDNN**: Not available via apt/snap
-- **nvidia-container-cli**: Requires manual installation
+-
+- **Sources For Study**:https://youtu.be/gojeTqXdBH0?si=JakPynz50ZZmYgWe
