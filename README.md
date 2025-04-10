@@ -30,67 +30,64 @@ sudo ubuntu-drivers autoinstall
 
 ---
 
-# apt
-
-- **ubuntu-drivers-common**:
+- **lists Director Content**:
 
 ```bash
-sudo apt install ubuntu-drivers-common
+ls 
 ```
 
-- **build-essential**:
+- **Change directory**:
 
 ```bash
-sudo apt install build-essential
+cd 
 ```
 
-- **Wireshark**:
+- **Make directory**:
 
 ```bash
-sudo apt install wireshark
+mkdir
 ```
 
-- **Git**:
+- **Remove files/folders**:
 
 ```bash
-sudo apt install git
+rm
 ```
 
-- **Git LFS**:
+- **Copy files/folders**:
 
 ```bash
-sudo apt install git-lfs
+cp
 ```
 
-- **AWS CLI**:
+- **Move or rename**:
 
 ```bash
-sudo apt install awscli
+mv
 ```
 
-- **Docker**:
+- **Show current path**:
 
 ```bash
-sudo apt install docker.io docker-compose
-sudo usermod -aG docker $USER
+pwd
 ```
 
-- **FileZilla**:
+- **View file content**:
 
 ```bash
-sudo apt install filezilla
+cat
 ```
 
-- **Conky**:
+- **Edit files in terminal**:
 
 ```bash
-sudo apt install conky
+nano
 ```
 
-- **Peek**:
+- **Remove an Emty Directory**:
 
 ```bash
-sudo apt install peek
+rmdir
 ```
 
 - **Audacity**:
