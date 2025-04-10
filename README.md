@@ -12,10 +12,10 @@
 ## Table of Contents
 
 - [Main](#main)
-- [Files](#Working with Files)
-- [Permissions & Ownership](#Permissions & Ownership)
-- [Archiving & Compression](#Archiving & Compression)
--[Package Management (Debian/Ubuntu)](#Package Management (Debian/Ubuntu))
+- [Files](#Working-with-Files)
+- [Permissions & Ownership](#Permissions-&-Ownership)
+- [Archiving & Compression](#Archiving-&-Compression)
+-[Package Management)](#Package-Management-(Debian/Ubuntu))
 - [Gnome Extension](#gnome-extension)
 - [Other](#other)
 
