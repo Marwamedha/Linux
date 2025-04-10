@@ -12,7 +12,7 @@
 ## Table of Contents
 
 - [Main](#main)
-- [Working with Files](#Working with Files)
+- [Files](#Working with Files)
 - [Permissions & Ownership](#Permissions & Ownership)
 - [Archiving & Compression](#Archiving & Compression)
 -[Package Management (Debian/Ubuntu)](#Package Management (Debian/Ubuntu))
