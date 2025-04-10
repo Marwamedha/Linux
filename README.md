@@ -21,7 +21,7 @@
 
 ---
 
-# main ![image](https://github.com/user-attachments/assets/ae31caf8-87cf-4463-9c01-47781b03c660)
+# main 
 
 
 - **autoinstall**:
@@ -134,8 +134,7 @@ sudo apt install python3 python3-pip python3-venv
 ```
 ---
 
-# Working with Files ![image](https://github.com/user-attachments/assets/ad9d4841-f843-4ed0-9952-d051d2b52189)
-
+# Working with Files
 
 - **View file content**:
 
