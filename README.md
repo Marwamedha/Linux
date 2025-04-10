@@ -1,9 +1,9 @@
-# Linux
+#                                                 ![image](https://github.com/user-attachments/assets/4154968a-a8fd-4f7e-ac0a-ac461a468c18)  Linux For Data Engineering 
 
 
 <div align="center">
 
-# Linux For Data Engineering 
+
 
 </div>
 
