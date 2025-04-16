@@ -68,6 +68,12 @@ cp
 mv
 ```
 
+- **Move or rename**:
+
+```bash
+mv
+```
+
 - **Show current path**:
 
 ```bash
@@ -252,7 +258,29 @@ sudo apt upgrade
 sudo apt install <pkg>
 sudo apt remove <pkg>
 ```
+-----
+#  Process Managment 
+- **show active processes**:
+
+```bash
+ps
+```
+
+- **Monitor system proxesses in real time**:
+
+```bash
+top
+```
+
+- **kill processes**:
+
+```bash
+kill
+killall
+pkill
+```
 ------
+
 #  Shortcuts & Tricks
 
 - **Repeat last command**:
