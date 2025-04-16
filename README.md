@@ -18,6 +18,7 @@
 - [Package Management)](#Package-Management-(Debian/Ubuntu))
 - [Process Mangement)](#Process-Managemet))
 - [Networking)](#Networking))
+- [Data Manipulation)](#Data-Manipulation))
 - [Gnome Extension](#gnome-extension)
 - [Other](#other)
 
@@ -295,6 +296,54 @@ ping
 traceroute 
 ```
 ------
+
+#  User Management
+- **Create a new user**:
+
+```bash
+useradd
+```
+
+- **Change user password**:
+
+```bash
+passwd
+```
+- **Modify User Accounts**:
+
+```bash
+usermod
+```
+- **Display the current logged-in user**:
+
+```bash
+Whoami
+```
+------
+# Data Manipulation
+- **Pattern Scanning and Processing**:
+
+```bash
+awk
+```
+
+- **Stream Editor for modifying files**:
+
+```bash
+sed
+```
+- **sort file content**:
+
+```bash
+sort
+```
+- **Report or omit repeated lines**:
+
+```bash
+uniq
+```
+------
+
 #  Shortcuts & Tricks
 
 - **Repeat last command**:
