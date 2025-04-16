@@ -16,6 +16,8 @@
 - [Permissions & Ownership](#Permissions-&-Ownership)
 - [Archiving & Compression](#Archiving-&-Compression)
 -[Package Management)](#Package-Management-(Debian/Ubuntu))
+-[Process Mangement)](#Process-Managemet))
+-[Networking)](#Networking))
 - [Gnome Extension](#gnome-extension)
 - [Other](#other)
 
@@ -259,7 +261,7 @@ sudo apt install <pkg>
 sudo apt remove <pkg>
 ```
 -----
-#  Process Managment 
+#  Process Management 
 - **show active processes**:
 
 ```bash
@@ -280,7 +282,19 @@ killall
 pkill
 ```
 ------
+#  Networking
+- **Check Networking Connectivity**:
 
+```bash
+ping
+```
+
+- **Track packet route to destination**:
+
+```bash
+traceroute 
+```
+------
 #  Shortcuts & Tricks
 
 - **Repeat last command**:
