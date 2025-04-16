@@ -15,9 +15,9 @@
 - [Files](#Working-with-Files)
 - [Permissions & Ownership](#Permissions-&-Ownership)
 - [Archiving & Compression](#Archiving-&-Compression)
--[Package Management)](#Package-Management-(Debian/Ubuntu))
--[Process Mangement)](#Process-Managemet))
--[Networking)](#Networking))
+- [Package Management)](#Package-Management-(Debian/Ubuntu))
+- [Process Mangement)](#Process-Managemet))
+- [Networking)](#Networking))
 - [Gnome Extension](#gnome-extension)
 - [Other](#other)
 
